@@ -510,3 +510,42 @@ width: 100%;
     text-align: center;
     margin-bottom: 20px;
   }
+
+
+
+
+  .ContactFrom1 input ,  .ContactFrom1 textarea{
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 20px !IMPORTANT;
+    border: 0px solid #e4e4e4 !important;
+    text-transform: capitalize;
+    color: #656565;
+ }
+ .ContactFrom1 p{
+    margin-bottom: 8px;
+ }
+ .ContactFrom1 .intl-tel-input {
+    display: block;
+}
+.ContactFrom1 input.wpcf7-submit{
+    background-color: #656565 !important;
+    color: #fff;
+    border-radius: 20px !important;
+    padding: 15px 15px;
+    text-transform: capitalize;
+}
+.ContactFrom1 ::placeholder {
+    color: #656565;
+    opacity: 1; /* Firefox */
+  }
+  
+  .ContactFrom1  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #656565;
+  }
+  
+  .ContactFrom1 ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #656565;
+  }
+
+
