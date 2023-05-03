@@ -468,7 +468,7 @@ width: 100%;
     font-size: 23px;
     font-weight: 600;
     color: #000;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
  }
  .ContactFrm1 input ,  .ContactFrm1 textarea{
     width: 100%;
@@ -535,6 +535,8 @@ width: 100%;
     padding: 15px 15px;
     text-transform: capitalize;
     font-weight: 600;
+    width: auto;
+    min-width: 220px;
 }
 .ContactFrom1 ::placeholder {
     color: #656565;
