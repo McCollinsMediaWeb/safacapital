@@ -5,7 +5,11 @@
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both
 }
-
+input , textarea , select , button{
+    -webkit-appearance: none;
+    outline: none !important;
+    box-shadow: none !important;
+  }
 .animated.infinite {
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite
@@ -553,3 +557,138 @@ width: 100%;
   }
 
 
+.AccordionItem{
+    border: 1px solid #cfcfcf !important;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+.AccordionQstion{
+    padding: 15px;
+    font-weight: 600;
+    color: #000;
+    font-size: 20px;
+    padding-right: 50px;
+    position: relative;
+    cursor: pointer;
+   
+}
+.AccordionQstion::after{
+    content: "";
+    background-image: url(../images/accordionArrow.jpg);
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+.AccordionAnswer{
+    padding: 15px;
+    border-top: 1px solid #cfcfcf !important;
+    display: none;
+}
+.AccordionItem.active .AccordionAnswer{
+    display: block;
+}
+.AccordionItem.active .AccordionQstion::after {
+    top: 20px;
+    right: 8px;
+    transform: rotate(180deg);
+}
+footer{
+background-color: #000;
+color: #fff;
+}
+.CopyRightBox{
+    padding: 20px 0px;
+    background-color: #707070;
+    color: #fff;
+}
+.CopyRightBox .row{
+    align-items: center;
+}
+.CopyRightBox .row a{
+    color: #fff !important;
+}
+.CopyRightBoxUl{
+    padding: 0;
+    margin: 0;
+}
+.CopyRightBoxUl li{
+    display: inline-block;
+}
+.CopyRightBoxUl li a {
+    display: inline-block;
+    margin-right: 10px;
+}
+.FotterT1{
+    font-size: 20px;
+    text-transform: uppercase;
+    border-left: 3px solid #3F8BBC;
+    padding: 10px;
+    font-weight: 600;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+.FotterT2{
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.FooterMainLinks{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.FooterMainLinks a{
+    display: block;
+    position: relative;
+    padding: 11px 10px 10px 30px;
+    color: #fff !important;
+}
+.FooterMainLinks a::before{
+    content: "";
+    background-image: url(../images/ftr.png);
+    width: 12px;
+    height: 15px;
+    display: inline-block;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+.Newsletter{
+    position: relative;
+}
+.Newsletter form{
+
+}
+.Newsletter form input{
+width: 100%;
+background-color: #707070;
+padding: 15px;
+color: #fff;
+}
+.Newsletter ::placeholder {
+    color: #fff;
+    opacity: 1; /* Firefox */
+  }
+  
+  .Newsletter :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #fff;
+  }
+  
+  .Newsletter ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #fff;
+  }
+  .Newsletter form  button {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    border: 0px solid #e4e4e4;
+    width: 80px;
+    height: 48px;
+    background: #3f8bbc;
+    background-image: url(../images/send.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}

@@ -33,6 +33,9 @@ jQuery(document).ready(function ($) {
       jQuery("body").toggleClass("activeform");
       jQuery("body").removeClass("pop3active");
     });
+    jQuery(".AccordionQstion").click(function () {
+      jQuery(this).parent().toggleClass("active")
+    });
     // jQuery('.multiple-items').slick({
     //   infinite: true,
     //   slidesToShow: 2,
