@@ -33,4 +33,10 @@ jQuery(document).ready(function ($) {
       jQuery("body").toggleClass("activeform");
       jQuery("body").removeClass("pop3active");
     });
+    // jQuery('.multiple-items').slick({
+    //   infinite: true,
+    //   slidesToShow: 2,
+    //   slidesToScroll: 2,
+    //   dots: true
+    // });
 });

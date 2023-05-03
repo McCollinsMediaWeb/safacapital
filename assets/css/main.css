@@ -108,7 +108,7 @@ a{
     padding: 10px 0px;
 }
 .container{
-    max-width: 1400px;
+    max-width: 1300px;
 } 
 .HeadeNavItems ul{
     margin: 0;
@@ -236,7 +236,7 @@ a{
 }
 .VidTxt1{
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 37px;
     font-weight: 600;
     color: #000;
     margin-bottom: 20px;
@@ -323,7 +323,7 @@ a{
  }
  .CommonHdr1T1{
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 37px;
     font-weight: 600;
     color: #000;
     margin-bottom: 40px;
@@ -402,4 +402,67 @@ a{
     background-image: url(../images/serviceimages/service3.png);
     width: 28px;
     height: 27px;
+ }
+ .EmpBox{
+    margin-bottom: 15px;
+    cursor: pointer;
+ }
+ .EmpBox .EmpImage{
+width: 100%;
+ }
+ .EmpName{
+    padding: 15px;
+    background-color: #F7F5F5 !important;
+    text-align: center;
+    font-weight: 600;
+    color: #000;
+ }
+ .slick-arrow{
+    display: none !important;
+ }
+ .slick-dots li {
+    display: inline-block;
+ }
+ .slick-dots li button{
+    background-color: #656565;
+    height: 4px;
+    font-size: 0px;
+    margin-right: 5px;
+    min-width: 100px;
+    border: 0px solid #e4e4e4 !important;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none !important;
+ }
+ .slick-dots{
+    text-align: center;
+ }
+ .slick-dots li.slick-active button{
+    background-color: #3F8BBC;
+ }
+ .EmployeeBox{
+    margin-top: 60px;
+ }
+ .HomeSection4 .container{
+    max-width: 1200px;
+ }
+ .SpEmpoxCnt{
+    background-color: #F7F5F5 !important;
+    padding: 20px 15px;
+ }
+ .SpEmpoxCntT1{
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 5px;
+ }
+ .SpEmpoxCntT2{
+    font-weight: 600;
+    margin-bottom: 15px;
+ }
+ .SpEmpoxCntT3{
+    line-height: 1.8;
+    text-transform: capitalize;
+ }
+ .ContactFromTp1T1{
+    
  }
