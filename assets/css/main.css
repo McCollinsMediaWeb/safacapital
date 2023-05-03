@@ -470,3 +470,11 @@ width: 100%;
     color: #000;
     margin-bottom: 10px;
  }
+ .ContactFrm1 input{
+    width: 100%;
+    padding: 10px;
+
+ }
+ .ContactFrm1 p{
+    margin-bottom: 5px;
+ }
