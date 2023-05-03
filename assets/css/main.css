@@ -503,3 +503,10 @@ width: 100%;
   .ContactFrm1 ::-ms-input-placeholder { /* Microsoft Edge */
    color: #656565;
   }
+  .ContactFrm1T1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
