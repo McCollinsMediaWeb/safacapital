@@ -314,6 +314,7 @@ a{
     border-radius: 30px;
     transition: 00.4s;
     border: 2px solid #fff;
+    padding-bottom: 0;
 }
 .activeform .Popup1 {
     bottom: 0;
