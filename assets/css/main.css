@@ -472,7 +472,7 @@ width: 100%;
  }
  .ContactFrm1 input ,  .ContactFrm1 textarea{
     width: 100%;
-    padding: 15px;
+    padding: 12px 15px;
     border-radius: 20px !IMPORTANT;
     border: 0px solid #e4e4e4 !important;
     text-transform: capitalize;
@@ -488,7 +488,7 @@ width: 100%;
     background-color: #656565 !important;
     color: #fff;
     border-radius: 20px !important;
-    padding: 12px;
+    padding: 15px 15px;
     text-transform: capitalize;
 }
 .ContactFrm1 ::placeholder {
