@@ -470,11 +470,19 @@ width: 100%;
     color: #000;
     margin-bottom: 10px;
  }
- .ContactFrm1 input{
+ .ContactFrm1 input ,  .ContactFrm1 textarea{
     width: 100%;
     padding: 10px;
-
+    border-radius: 20px;
  }
  .ContactFrm1 p{
-    margin-bottom: 5px;
+    margin-bottom: 8px;
  }
+ .ContactFrm1 .intl-tel-input {
+    display: block;
+}
+.ContactFrm1 input.wpcf7-submit{
+    background-color: #3F8BBC !important;
+    color: #fff;
+    border-radius: 20px;
+}
