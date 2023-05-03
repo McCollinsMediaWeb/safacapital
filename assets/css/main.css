@@ -464,5 +464,9 @@ width: 100%;
     text-transform: capitalize;
  }
  .ContactFromTp1T1{
-    
+    text-transform: capitalize;
+    font-size: 23px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 10px;
  }
