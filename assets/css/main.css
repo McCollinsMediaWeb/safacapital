@@ -980,3 +980,17 @@ max-width: auto;
     background-image: url(../images/contactus/c4.png);
     height: 24px;
 }
+.MainForm1 input, 
+.MainForm1 textarea{
+    -webkit-appearance: none;
+    outline: none !important;
+    box-shadow: none !important;
+    width: 100%;
+    padding: 15px;
+    border: 0px solid #656565;
+    background: #f7f5f5;
+}
+.MainForm1 .intl-tel-input {
+    position: relative;
+    display: block;
+}
