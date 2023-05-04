@@ -1135,3 +1135,67 @@ max-width: auto;
     margin-bottom: 20px;
     margin-top: 20px;
 }
+.ServiceBox{
+    display: block;
+    color: #fff !important;
+}
+.ServiceBoxFooter{
+    position: relative;
+    background-color: #3F8BBC;
+    color: #fff;
+    padding: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+.ImageRound{
+    background-color: #3F8BBC;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    z-index: 3;
+    margin-left: -25px;
+}
+.ServiceBoxFooterImg{
+    width: 30px;
+    height: 30px;
+    background-size: 100% 100%;
+}
+.ServiceBoxFooterImg.s1{
+    background-image: url(../images/service/s1.png);
+}
+.ServiceBoxFooterImg.s2{
+    background-image: url(../images/service/s2.png);
+}
+.ServiceBoxFooterImg.s3{
+    background-image: url(../images/service/s3.png);
+}
+.ServiceBoxMain{
+    position: relative;
+}
+.HoveContent{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    padding: 25px;
+    text-align: center;
+    background-color: rgba(63, 139, 188,.5);
+    line-height: 1.5;
+    display: none;
+}
+.ServiceBox:hover .HoveContent{
+    display: block;
+}
+.serviceSec1 .ServiceBox{
+    margin-top: 30px;
+}
