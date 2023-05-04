@@ -929,3 +929,54 @@ color: #fff;
 text-align: center;
 font-size: 20px;
 }
+.ContRow1{
+    margin-top: 40px;
+}
+.ContactBoxR{
+    padding: 15px;
+}
+.ContactBoxRFlex{
+    display: flex;
+}
+.ContactBoxRFlexLeft{
+flex: 0 0 50px;
+max-width: 50px;
+}
+.ContactBoxRFlexRight{
+flex: auto;
+max-width: auto;
+}
+.ContactBoxRT1{
+    font-weight: 600;
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.ContactBoxRT2{
+   line-height: 1.5;
+}
+.ContactBoxRImg{
+    width: 30px;
+    height: 30px;
+    background-size: 100% 100%;
+}
+.ContactBoxRItem{
+    margin-bottom: 20px;
+}
+.ContactBoxRImg.c1{
+    background-image: url(../images/contactus/c1.png);
+    width: 25px;
+    height: 27px;
+}
+.ContactBoxRImg.c2{
+    background-image: url(../images/contactus/c2.png);
+}
+.ContactBoxRImg.c3{
+    background-image: url(../images/contactus/c3.png);
+    height: 25px;
+
+}
+.ContactBoxRImg.c4{
+    background-image: url(../images/contactus/c4.png);
+    height: 24px;
+}
