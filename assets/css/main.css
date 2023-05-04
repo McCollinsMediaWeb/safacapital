@@ -989,6 +989,7 @@ max-width: auto;
     padding: 15px;
     border: 0px solid #656565;
     background: #f7f5f5;
+    color: #656565;
 }
 .MainForm1 .intl-tel-input {
     position: relative;
@@ -1004,3 +1005,15 @@ max-width: auto;
     width: auto;
     min-width: 220px;
 }
+.MainForm1  ::placeholder {
+    color: #656565;
+    opacity: 1; /* Firefox */
+  }
+  
+  .MainForm1   :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #656565;
+  }
+  
+  .MainForm1  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #656565;
+  }
