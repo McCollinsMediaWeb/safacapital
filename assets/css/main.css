@@ -19,6 +19,9 @@ input , textarea , select , button{
     -webkit-animation-duration: 2s;
     animation-duration: 2s
 }
+.mobile-only{
+    display: none;
+}
 @-webkit-keyframes fadeInUp {
     0% {
         opacity: 0;
@@ -1220,4 +1223,68 @@ max-width: auto;
 }
 .BlockT3{
     line-height: 1.8;
+}
+
+.halo-sticky-toolbar-mobile {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 8;
+    box-shadow: 0 0 9px #0000001f;
+    transition: transform .6s;
+    background: #fff;
+    border: 1px solid #fff;
+    overflow: hidden;
+}
+.bottom-bar {
+    padding: 3px 15px;
+    min-height: 60px;
+}
+.bottom-bar--list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+}
+.bottom-bar--list li>a {
+    padding: 7px 2px;
+    display: block;
+    pointer-events: auto;
+    text-align: center;
+    color: #212121;
+}
+.bottom-bar--list .icon img {
+    max-width: 25px;
+}
+.bottom-bar--list .icon+.text {
+    margin-top: 6px;
+    line-height: 1;
+    font-size: 11px;
+}
+@media screen and (max-width: 992px) {
+    .HeadeNavItems ul{
+        display: none;
+    }
+  .mobile-only{
+    display: block;
+  }
+  .SideNav{
+    width: 100%;
+    padding: 45px 40px;
+  }
+  .CloseClick {
+    top: -30px;
+    right: -25px;
+}
+.activeform .Popup1 {
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    min-height: 70vh;
+}
+  
 }
