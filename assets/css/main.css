@@ -776,7 +776,7 @@ background-image: url(../images/instagram.png);
 .AbtK1T2{
     font-weight: 600;
     color: #000;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     line-height: 1.4;
 }
@@ -807,4 +807,125 @@ background-image: url(../images/instagram.png);
 }
 .AbtK1T1Imge.four{
     background-image: url(../images/aboutus/4.png);
+}
+.WorkProcessBoxItem{
+
+}
+.WpBImageBox{
+    background-color: #3F8BBC;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.WpBLine{
+    width: 3px;
+    height: 150px;
+    background-color: #E2E9ED;
+    margin: 0 auto;
+}
+.WpBcount{
+    background-color: #E2E9ED;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 25px;
+    color: #000;
+}
+.WpBT1{
+    font-weight: 600;
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.4;
+
+}
+.WpBT2{
+    line-height: 1.8;
+    text-align: center;
+}
+.WorkProcessBox{
+    margin-top: 50px;
+}
+.mrgb-10{
+    margin-bottom: 15px;
+}
+.WpBImage{
+    width: 30px;
+    height: 30px;
+    background-size: 100% 100%;
+}
+.WpBImage.im1{
+    background-image: url(../images/aboutus/s1.png);
+    height: 26px;
+}
+.WpBImage.im2{
+    background-image: url(../images/aboutus/s2.png);
+    width: 26px;
+}
+.WpBImage.im3{
+    background-image: url(../images/aboutus/s3.png);
+    height: 25px;
+}
+.WpBImage.im4{
+    background-image: url(../images/aboutus/s4.png);
+}
+.sec3{
+    background-image: url(../images/abtbg.jpg);
+    background-size: cover;
+    padding: 100px 0px;
+}
+.WHO1Box{
+    background-color: #E2E9ED;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 25px;
+    color: #000;
+}
+.WHO1Img{
+    width: 80px;
+    height: 80px;
+    background-size: 100% 100%;
+}
+.WHO1Img.t1{
+    background-image: url(../images/serviceimages/t1.png);
+}
+.WHO1Img.t2{
+    background-image: url(../images/serviceimages/t2.png);
+    
+    width: 74px;
+}
+.WHO1Img.t3{
+    background-image: url(../images/serviceimages/t3.png);
+    width: 68px;
+}
+.WHO1Img.t4{
+    background-image: url(../images/serviceimages/t4.png);
+    width: 68px;
+}
+.WHO1T1{
+text-align: center;
+font-weight: 600;
+font-size: 50px;
+margin: 15px 0px 10px 0px;
+color: #fff;
+}
+.WHO1T2{
+color: #fff;
+text-align: center;
+font-size: 20px;
 }
