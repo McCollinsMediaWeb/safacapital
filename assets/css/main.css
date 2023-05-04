@@ -1572,4 +1572,24 @@ footer {
         margin-bottom: 15px;
         margin-top: 15px;
     }
+    .VidTxt2 {
+        margin-bottom: 15px;
+        line-height: 1.5;
+    }
+    .VidTxt3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .VidTxt4 {
+        margin-bottom: 15px;
+        line-height: 1.5;
+    }
+    .VideoLink1{
+        margin-top: 15px;
+        padding: 10px 20px;
+    }
+    .CommonHdr1T1 {
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
 }
