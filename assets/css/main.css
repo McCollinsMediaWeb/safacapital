@@ -408,6 +408,15 @@ a{
     width: 28px;
     height: 27px;
  }
+ .ServiceImage.ServiceImage4{
+    background-image: url(../images/serviceimages/service4.png);
+ }
+ .ServiceImage.ServiceImage5{
+    background-image: url(../images/serviceimages/service5.png);
+ }
+ .ServiceImage.ServiceImage6{
+    background-image: url(../images/serviceimages/service6.png);
+ }
  .EmpBox{
     margin-bottom: 15px;
     cursor: pointer;
