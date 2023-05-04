@@ -1,15 +1,19 @@
-
 .animated {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both
 }
-input , textarea , select , button{
+
+input,
+textarea,
+select,
+button {
     -webkit-appearance: none;
     outline: none !important;
     box-shadow: none !important;
-  }
+}
+
 .animated.infinite {
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite
@@ -19,14 +23,16 @@ input , textarea , select , button{
     -webkit-animation-duration: 2s;
     animation-duration: 2s
 }
-.mobile-only{
+
+.mobile-only {
     display: none;
 }
+
 @-webkit-keyframes fadeInUp {
     0% {
         opacity: 0;
-        -webkit-transform: translate3d(0,100%,0);
-        transform: translate3d(0,100%,0)
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0)
     }
 
     100% {
@@ -39,9 +45,9 @@ input , textarea , select , button{
 @keyframes fadeInUp {
     0% {
         opacity: 0;
-        -webkit-transform: translate3d(0,100%,0);
-        -ms-transform: translate3d(0,100%,0);
-        transform: translate3d(0,100%,0)
+        -webkit-transform: translate3d(0, 100%, 0);
+        -ms-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0)
     }
 
     100% {
@@ -56,20 +62,24 @@ input , textarea , select , button{
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp
 }
-.mobile-only{
+
+.mobile-only {
     display: none;
 }
-body{
+
+body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     line-height: 1.1;
     color: #656565;
     font-size: 16px;
 }
-a{
+
+a {
     text-decoration: none !important;
     transition: 0.4s;
 }
+
 @keyframes leaves {
     0% {
         transform: scale(1.0);
@@ -79,33 +89,39 @@ a{
         transform: scale(1.1);
     }
 }
-.StickHeader .siteHeader{
+
+.StickHeader .siteHeader {
     background-color: #3F8BBC;
-    box-shadow: 0 5px 25px rgba(0,0,0,.17);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .17);
 }
-.width-100{
-    width:100%;
+
+.width-100 {
+    width: 100%;
 }
-.MainImage{
+
+.MainImage {
     object-fit: cover;
     animation: leaves 20s ease-in-out infinite alternate;
     min-height: 80vh;
 }
-.HeroBanner{
+
+.HeroBanner {
     position: relative;
     overflow: hidden;
 }
-.HeroBanner:after{
+
+.HeroBanner:after {
     content: "";
     background-color: rgba(0, 0, 0, 0.2);
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     position: absolute;
     top: 0;
-    left:0;
+    left: 0;
     z-index: 1;
 }
-.siteHeader{
+
+.siteHeader {
     position: fixed;
     left: 0;
     top: 0;
@@ -114,16 +130,20 @@ a{
     border-bottom: 1px solid #fff;
     padding: 10px 0px;
 }
-.container{
+
+.container {
     max-width: 1300px;
-} 
-.HeadeNavItems ul{
+}
+
+.HeadeNavItems ul {
     margin: 0;
     padding: 0;
 }
-.HeadeNavItems ul li{
+
+.HeadeNavItems ul li {
     display: inline-block;
 }
+
 .HeadeNavItems ul li a {
     color: #fff;
     display: block;
@@ -135,27 +155,33 @@ a{
     border-radius: 5px;
     text-align: center;
 }
-.HeadeNavItems ul li a:hover{
+
+.HeadeNavItems ul li a:hover {
     background-color: #fff;
     color: #3F8BBC;
 }
-.HeadeNavItems ul li:last-child a{
+
+.HeadeNavItems ul li:last-child a {
     background-color: #3F8BBC !important;
     margin-left: 30px;
 }
-.HeadeNavItems ul li:last-child a:hover{
+
+.HeadeNavItems ul li:last-child a:hover {
     background-color: #fff !important;
     color: #3F8BBC;
 }
-.SiteHeaderBox{
+
+.SiteHeaderBox {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.LogoBox img{
+
+.LogoBox img {
     max-width: 150px;
 }
-.HeroContent{
+
+.HeroContent {
     color: #fff;
     position: absolute;
     left: 0;
@@ -164,19 +190,22 @@ a{
     width: 100%;
     z-index: 2;
 }
-.HeroContent1{
+
+.HeroContent1 {
     font-weight: 700;
     font-size: 50px;
     margin-bottom: 20px;
     line-height: 1.2;
 }
-.HeroContent2{
+
+.HeroContent2 {
     font-weight: 400;
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 40px;
 }
-.HeroContent3{
+
+.HeroContent3 {
     padding: 15px 20px;
     border-radius: 5px;
     color: #3F8BBC;
@@ -185,14 +214,17 @@ a{
     font-size: 16px;
     text-transform: uppercase;
 }
-.HeroContent3:hover{
+
+.HeroContent3:hover {
     color: #fff;
     background-color: #3F8BBC;
 }
-.HeroContent3:hover .Arrow1{
+
+.HeroContent3:hover .Arrow1 {
     background: url(../images/sprite/sprite.png) -112px -18px;
 }
-.Arrow1{
+
+.Arrow1 {
     background: url(../images/sprite/sprite.png) -84px -18px;
     height: 20px;
     width: 10px;
@@ -202,29 +234,34 @@ a{
     margin-left: 5px;
     transition: 0.4s;
 }
-.pd-common{
+
+.pd-common {
     padding: 80px 0px;
 }
+
 .StickHeader .HeadeNavItems ul li:last-child a {
     background-color: #fff !important;
     color: #3F8BBC !important;
 }
-.VideoBox{
+
+.VideoBox {
     position: relative;
     cursor: pointer;
     display: block;
 }
-.VideoBox:after{
+
+.VideoBox:after {
     content: "";
     background-color: rgba(0, 0, 0, 0.1);
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     position: absolute;
     top: 0;
-    left:0;
+    left: 0;
     z-index: 1;
 }
-.Arrow2{
+
+.Arrow2 {
     background-image: url(../images/playbutton.png);
     width: 70px;
     height: 70px;
@@ -238,37 +275,44 @@ a{
     z-index: 2;
     transition: 0.4s;
 }
-.VideoBox:hover .Arrow2{
+
+.VideoBox:hover .Arrow2 {
     background-image: url(../images/playbuttonHover.png);
 }
-.VidTxt1{
+
+.VidTxt1 {
     text-transform: uppercase;
     font-size: 37px;
     font-weight: 600;
     color: #000;
     margin-bottom: 20px;
 }
-.VidTxt2{
+
+.VidTxt2 {
     text-transform: capitalize;
     margin-bottom: 30px;
     line-height: 1.8;
 }
-.VidTxt3{
+
+.VidTxt3 {
     text-transform: capitalize;
     font-size: 23px;
     font-weight: 600;
     color: #000;
     margin-bottom: 20px;
 }
-.VidTxt4{
+
+.VidTxt4 {
     text-transform: capitalize;
     margin-bottom: 30px;
     line-height: 1.8;
 }
-.VideoContent{
+
+.VideoContent {
     padding-left: 30px;
 }
-.VideoLink1{
+
+.VideoLink1 {
     color: #fff !important;
     background-color: #3F8BBC;
     padding: 15px 20px;
@@ -280,7 +324,8 @@ a{
     margin-top: 30px;
     display: inline-block;
 }
-.VideoLink1 .Arrow3{
+
+.VideoLink1 .Arrow3 {
     background: url(../images/sprite/sprite.png) -112px -18px;
     height: 20px;
     width: 10px;
@@ -289,7 +334,7 @@ a{
     top: 1px;
     margin-left: 15px;
     transition: 0.4s;
-   
+
 }
 
 
@@ -297,6 +342,7 @@ a{
 .activeform .contact-pop-up .OverLay {
     display: block;
 }
+
 .contact-pop-up .OverLay {
     width: 100%;
     height: 100%;
@@ -308,6 +354,7 @@ a{
     display: none;
     cursor: pointer;
 }
+
 .Popup1 {
     padding: 30px;
     background-color: #3F8BBC;
@@ -323,56 +370,67 @@ a{
     border: 2px solid #fff;
     padding-bottom: 0;
 }
+
 .activeform .Popup1 {
     bottom: 0;
 }
- .bg-light{
+
+.bg-light {
     background-color: #F7F5F5 !important;
- }
- .CommonHdr1T1{
+}
+
+.CommonHdr1T1 {
     text-transform: uppercase;
     font-size: 37px;
     font-weight: 600;
     color: #000;
     margin-bottom: 40px;
- }
- .CommonHdr1T2{
+}
+
+.CommonHdr1T2 {
     width: 220px;
     height: 3px;
     background-color: #3F8BBC;
     margin: 0 auto;
     margin-bottom: 10px;
     border-radius: 5px;
- }
- .CommonHdr1T3{
+}
+
+.CommonHdr1T3 {
     width: 180px;
     height: 3px;
     background-color: #3F8BBC;
     margin: 0 auto;
     margin-bottom: 40px;
     border-radius: 5px;
- }
- .CommonHdr1T4{
+}
+
+.CommonHdr1T4 {
     max-width: 800px;
     margin: 0 auto;
     line-height: 1.8;
     text-transform: capitalize;
- }
- .SBox1Flex{
+}
+
+.SBox1Flex {
     display: flex;
- }
- .SBox1L{
+}
+
+.SBox1L {
     flex: 0 0 80px;
     max-width: 80px;
- }
- .SBox1R{
+}
+
+.SBox1R {
     flex: auto;
     padding-left: 15px;
- }
- .ServiceBox{
+}
+
+.ServiceBox {
     margin-top: 60px;
- }
- .RoundBox1{
+}
+
+.RoundBox1 {
     background-color: #3F8BBC;
     border-radius: 50%;
     height: 80px;
@@ -380,70 +438,85 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
- }
- .SBox1Rt1{
+}
+
+.SBox1Rt1 {
     text-transform: capitalize;
     font-size: 21px;
     font-weight: 600;
     color: #000;
     margin-bottom: 10px;
- }
- .SBox1Rt2{
+}
+
+.SBox1Rt2 {
     text-transform: capitalize;
     margin-bottom: 30px;
     line-height: 1.8;
- }
- .ServiceImage{
+}
+
+.ServiceImage {
     background-size: 100% 100%;
     width: 30px;
     height: 30px;
- }
- .ServiceImage.ServiceImage1{
+}
+
+.ServiceImage.ServiceImage1 {
     background-image: url(../images/serviceimages/service1.png);
- }
- .ServiceImage.ServiceImage2{
+}
+
+.ServiceImage.ServiceImage2 {
     background-image: url(../images/serviceimages/service2.png);
     width: 33px;
     height: 19px;
- }
- .ServiceImage.ServiceImage3{
+}
+
+.ServiceImage.ServiceImage3 {
     background-image: url(../images/serviceimages/service3.png);
     width: 28px;
     height: 27px;
- }
- .ServiceImage.ServiceImage4{
+}
+
+.ServiceImage.ServiceImage4 {
     background-image: url(../images/serviceimages/service4.png);
     width: 28px;
     height: 23px;
- }
- .ServiceImage.ServiceImage5{
+}
+
+.ServiceImage.ServiceImage5 {
     background-image: url(../images/serviceimages/service5.png);
- }
- .ServiceImage.ServiceImage6{
+}
+
+.ServiceImage.ServiceImage6 {
     background-image: url(../images/serviceimages/service6.png);
     height: 22px;
- }
- .EmpBox{
+}
+
+.EmpBox {
     margin-bottom: 15px;
     cursor: pointer;
- }
- .EmpBox .EmpImage{
-width: 100%;
- }
- .EmpName{
+}
+
+.EmpBox .EmpImage {
+    width: 100%;
+}
+
+.EmpName {
     padding: 15px;
     background-color: #F7F5F5 !important;
     text-align: center;
     font-weight: 600;
     color: #000;
- }
- .slick-arrow{
+}
+
+.slick-arrow {
     display: none !important;
- }
- .slick-dots li {
+}
+
+.slick-dots li {
     display: inline-block;
- }
- .slick-dots li button{
+}
+
+.slick-dots li button {
     background-color: #656565;
     height: 4px;
     font-size: 0px;
@@ -453,102 +526,125 @@ width: 100%;
     border-radius: 5px;
     cursor: pointer;
     outline: none !important;
- }
- .slick-dots{
+}
+
+.slick-dots {
     text-align: center;
- }
- .slick-dots li.slick-active button{
+}
+
+.slick-dots li.slick-active button {
     background-color: #3F8BBC;
- }
- .EmployeeBox{
+}
+
+.EmployeeBox {
     margin-top: 60px;
- }
- .HomeSection4 .container{
+}
+
+.HomeSection4 .container {
     max-width: 1200px;
- }
- .SpEmpoxCnt{
+}
+
+.SpEmpoxCnt {
     background-color: #F7F5F5 !important;
     padding: 20px 15px;
- }
- .SpEmpoxCntT1{
+}
+
+.SpEmpoxCntT1 {
     font-weight: 600;
     color: #000;
     margin-bottom: 5px;
- }
- .SpEmpoxCntT2{
+}
+
+.SpEmpoxCntT2 {
     font-weight: 600;
     margin-bottom: 15px;
- }
- .SpEmpoxCntT3{
+}
+
+.SpEmpoxCntT3 {
     line-height: 1.8;
     text-transform: capitalize;
- }
- .ContactFromTp1T1{
+}
+
+.ContactFromTp1T1 {
     text-transform: capitalize;
     font-size: 23px;
     font-weight: 600;
     color: #000;
     margin-bottom: 20px;
- }
- .ContactFrm1 input ,  .ContactFrm1 textarea{
+}
+
+.ContactFrm1 input,
+.ContactFrm1 textarea {
     width: 100%;
     padding: 12px 15px;
     border-radius: 20px !IMPORTANT;
     border: 0px solid #e4e4e4 !important;
     text-transform: capitalize;
     color: #656565;
- }
- .ContactFrm1 p{
+}
+
+.ContactFrm1 p {
     margin-bottom: 8px;
- }
- .ContactFrm1 .intl-tel-input {
+}
+
+.ContactFrm1 .intl-tel-input {
     display: block;
 }
-.ContactFrm1 input.wpcf7-submit{
+
+.ContactFrm1 input.wpcf7-submit {
     background-color: #656565 !important;
     color: #fff;
     border-radius: 20px !important;
     padding: 15px 15px;
     text-transform: capitalize;
 }
+
 .ContactFrm1 ::placeholder {
     color: #656565;
-    opacity: 1; /* Firefox */
-  }
-  
-  .ContactFrm1  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color: #656565;
-  }
-  
-  .ContactFrm1 ::-ms-input-placeholder { /* Microsoft Edge */
-   color: #656565;
-  }
-  .ContactFrm1T1{
+    opacity: 1;
+    /* Firefox */
+}
+
+.ContactFrm1 :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #656565;
+}
+
+.ContactFrm1 ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #656565;
+}
+
+.ContactFrm1T1 {
     color: #fff;
     font-weight: 600;
     font-size: 21px;
     text-align: center;
     margin-bottom: 20px;
-  }
+}
 
 
 
 
-  .ContactFrom1 input ,  .ContactFrom1 textarea{
+.ContactFrom1 input,
+.ContactFrom1 textarea {
     width: 100%;
     padding: 15px 15px;
     border-radius: 0px !IMPORTANT;
     border: 1px solid #cfcfcf !important;
     text-transform: capitalize;
     color: #656565;
- }
- .ContactFrom1 p{
+}
+
+.ContactFrom1 p {
     margin-bottom: 10px;
- }
- .ContactFrom1 .intl-tel-input {
+}
+
+.ContactFrom1 .intl-tel-input {
     display: block;
 }
-.ContactFrom1 input.wpcf7-submit{
+
+.ContactFrom1 input.wpcf7-submit {
     background-color: #3f8bbc !important;
     color: #fff;
     border-radius: 0px !important;
@@ -558,26 +654,31 @@ width: 100%;
     width: auto;
     min-width: 220px;
 }
+
 .ContactFrom1 ::placeholder {
     color: #656565;
-    opacity: 1; /* Firefox */
-  }
-  
-  .ContactFrom1  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color: #656565;
-  }
-  
-  .ContactFrom1 ::-ms-input-placeholder { /* Microsoft Edge */
-   color: #656565;
-  }
+    opacity: 1;
+    /* Firefox */
+}
+
+.ContactFrom1 :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #656565;
+}
+
+.ContactFrom1 ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #656565;
+}
 
 
-.AccordionItem{
+.AccordionItem {
     border: 1px solid #cfcfcf !important;
     margin-bottom: 10px;
     background-color: #fff;
 }
-.AccordionQstion{
+
+.AccordionQstion {
     padding: 15px;
     font-weight: 600;
     color: #000;
@@ -585,9 +686,10 @@ width: 100%;
     padding-right: 50px;
     position: relative;
     cursor: pointer;
-   
+
 }
-.AccordionQstion::after{
+
+.AccordionQstion::after {
     content: "";
     background-image: url(../images/accordionArrow.jpg);
     width: 25px;
@@ -596,46 +698,57 @@ width: 100%;
     top: 10px;
     right: 15px;
 }
-.AccordionAnswer{
+
+.AccordionAnswer {
     padding: 15px;
     border-top: 1px solid #cfcfcf !important;
     display: none;
 }
-.AccordionItem.active .AccordionAnswer{
+
+.AccordionItem.active .AccordionAnswer {
     display: block;
 }
+
 .AccordionItem.active .AccordionQstion::after {
     top: 20px;
     right: 8px;
     transform: rotate(180deg);
 }
-footer{
-background-color: #000;
-color: #fff;
+
+footer {
+    background-color: #000;
+    color: #fff;
 }
-.CopyRightBox{
+
+.CopyRightBox {
     padding: 20px 0px;
     background-color: #707070;
     color: #fff;
 }
-.CopyRightBox .row{
+
+.CopyRightBox .row {
     align-items: center;
 }
-.CopyRightBox .row a{
+
+.CopyRightBox .row a {
     color: #fff !important;
 }
-.CopyRightBoxUl{
+
+.CopyRightBoxUl {
     padding: 0;
     margin: 0;
 }
-.CopyRightBoxUl li{
+
+.CopyRightBoxUl li {
     display: inline-block;
 }
+
 .CopyRightBoxUl li a {
     display: inline-block;
     margin-right: 10px;
 }
-.FotterT1{
+
+.FotterT1 {
     font-size: 20px;
     text-transform: uppercase;
     border-left: 3px solid #3F8BBC;
@@ -644,23 +757,27 @@ color: #fff;
     padding-left: 30px;
     margin-bottom: 30px;
 }
-.FotterT2{
+
+.FotterT2 {
     line-height: 1.6;
     margin-bottom: 20px;
 }
-.FooterMainLinks{
+
+.FooterMainLinks {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-.FooterMainLinks a{
+
+.FooterMainLinks a {
     display: block;
     position: relative;
     padding: 16px 10px 16px 30px;
     color: #fff !important;
     font-size: 17px;
 }
-.FooterMainLinks a::before{
+
+.FooterMainLinks a::before {
     content: "";
     background-image: url(../images/ftr.png);
     width: 12px;
@@ -671,31 +788,37 @@ color: #fff;
     left: 3px;
     top: 16px;
 }
-.Newsletter{
+
+.Newsletter {
     position: relative;
 }
-.Newsletter form{
 
+.Newsletter form {}
+
+.Newsletter form input {
+    width: 100%;
+    background-color: #707070;
+    padding: 15px;
+    color: #fff;
 }
-.Newsletter form input{
-width: 100%;
-background-color: #707070;
-padding: 15px;
-color: #fff;
-}
+
 .Newsletter ::placeholder {
     color: #fff;
-    opacity: 1; /* Firefox */
-  }
-  
-  .Newsletter :-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color: #fff;
-  }
-  
-  .Newsletter ::-ms-input-placeholder { /* Microsoft Edge */
-   color: #fff;
-  }
-  .Newsletter form  button {
+    opacity: 1;
+    /* Firefox */
+}
+
+.Newsletter :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #fff;
+}
+
+.Newsletter ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #fff;
+}
+
+.Newsletter form button {
     position: absolute;
     top: 2px;
     right: 0;
@@ -708,52 +831,65 @@ color: #fff;
     background-repeat: no-repeat;
     cursor: pointer;
 }
-.GalleyBox .row{
+
+.GalleyBox .row {
     margin-left: -5px;
     margin-right: -5px;
 }
-.GalleyBox .row .col-md-4{
+
+.GalleyBox .row .col-md-4 {
     padding: 0px 5px;
     margin-bottom: 5px;
 }
-.GalleyBox .row .col-md-4 img{
+
+.GalleyBox .row .col-md-4 img {
     width: 100%;
 }
-.SocialBoxFlex{
+
+.SocialBoxFlex {
     display: flex;
 }
-.SocialBoxItem a{
-        margin: 0px 10px;
-        margin: 0px 10px;
+
+.SocialBoxItem a {
+    margin: 0px 10px;
+    margin: 0px 10px;
 }
-.SocialBoxItem:first-child a{
+
+.SocialBoxItem:first-child a {
     margin-left: 0;
 }
-.SocialBoxItem a span{
+
+.SocialBoxItem a span {
     display: inline-block;
     width: 25px;
     height: 25px;
     background-size: 100% 100%;
 }
-.SocialIcon.insta{
-background-image: url(../images/instagram.png);
+
+.SocialIcon.insta {
+    background-image: url(../images/instagram.png);
 }
-.SocialIcon.facebook{
+
+.SocialIcon.facebook {
     background-image: url(../images/facebook.png);
     width: 18px;
 }
-.SocialIcon.inkedin{
+
+.SocialIcon.inkedin {
     background-image: url(../images/linkedin.png);
 }
-.SocialIcon.twitter{
+
+.SocialIcon.twitter {
     background-image: url(../images/twitter.png);
     width: 30px;
 }
-.FotterT4{
+
+.FotterT4 {
     font-size: 20px;
     margin: 15px 0px;
 }
-.HeroSubContent{
+
+.HeroSubContent {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -766,13 +902,15 @@ background-image: url(../images/instagram.png);
     text-transform: uppercase;
     z-index: 2;
 }
-.OurValueItem{
+
+.OurValueItem {
     position: relative;
     padding: 10px 0px 10px 30px;
     text-transform: capitalize;
     line-height: 1.5;
 }
-.OurValueItem::before{
+
+.OurValueItem::before {
     content: "";
     background-color: #3F8BBC;
     width: 12px;
@@ -782,20 +920,23 @@ background-image: url(../images/instagram.png);
     left: 0;
     top: 15px;
 }
-.AbtK1{
+
+.AbtK1 {
     padding: 30px;
     background-color: #F7F5F5;
     text-align: center;
     margin-bottom: 20px;
 }
-.AbtK1T2{
+
+.AbtK1T2 {
     font-weight: 600;
     color: #000;
     font-size: 16px;
     text-align: center;
     line-height: 1.4;
 }
-.AbtK1T1{
+
+.AbtK1T1 {
     background-color: #3F8BBC;
     border-radius: 50%;
     height: 70px;
@@ -806,27 +947,32 @@ background-image: url(../images/instagram.png);
     margin: 0 auto;
     margin-bottom: 15px;
 }
-.AbtK1T1Imge{
+
+.AbtK1T1Imge {
     width: 35px;
     height: 35px;
     background-size: 100% 100%;
 }
-.AbtK1T1Imge.one{
+
+.AbtK1T1Imge.one {
     background-image: url(../images/aboutus/1.png);
 }
-.AbtK1T1Imge.two{
+
+.AbtK1T1Imge.two {
     background-image: url(../images/aboutus/2.png);
 }
-.AbtK1T1Imge.three{
+
+.AbtK1T1Imge.three {
     background-image: url(../images/aboutus/3.png);
 }
-.AbtK1T1Imge.four{
+
+.AbtK1T1Imge.four {
     background-image: url(../images/aboutus/4.png);
 }
-.WorkProcessBoxItem{
 
-}
-.WpBImageBox{
+.WorkProcessBoxItem {}
+
+.WpBImageBox {
     background-color: #3F8BBC;
     border-radius: 50%;
     height: 70px;
@@ -836,13 +982,15 @@ background-image: url(../images/instagram.png);
     justify-content: center;
     margin: 0 auto;
 }
-.WpBLine{
+
+.WpBLine {
     width: 3px;
     height: 150px;
     background-color: #E2E9ED;
     margin: 0 auto;
 }
-.WpBcount{
+
+.WpBcount {
     background-color: #E2E9ED;
     border-radius: 50%;
     height: 70px;
@@ -855,7 +1003,8 @@ background-image: url(../images/instagram.png);
     font-size: 25px;
     color: #000;
 }
-.WpBT1{
+
+.WpBT1 {
     font-weight: 600;
     color: #000;
     font-size: 18px;
@@ -863,42 +1012,52 @@ background-image: url(../images/instagram.png);
     line-height: 1.4;
 
 }
-.WpBT2{
+
+.WpBT2 {
     line-height: 1.8;
     text-align: center;
 }
-.WorkProcessBox{
+
+.WorkProcessBox {
     margin-top: 50px;
 }
-.mrgb-10{
+
+.mrgb-10 {
     margin-bottom: 15px;
 }
-.WpBImage{
+
+.WpBImage {
     width: 30px;
     height: 30px;
     background-size: 100% 100%;
 }
-.WpBImage.im1{
+
+.WpBImage.im1 {
     background-image: url(../images/aboutus/s1.png);
     height: 26px;
 }
-.WpBImage.im2{
+
+.WpBImage.im2 {
     background-image: url(../images/aboutus/s2.png);
     width: 26px;
 }
-.WpBImage.im3{
+
+.WpBImage.im3 {
     background-image: url(../images/aboutus/s3.png);
     height: 25px;
 }
-.WpBImage.im4{
+
+.WpBImage.im4 {
     background-image: url(../images/aboutus/s4.png);
 }
-.sec3{
+
+.sec3 {
     background-image: url(../images/abtbg.jpg);
     background-size: cover;
     padding: 100px 0px;
 }
-.WHO1Box{
+
+.WHO1Box {
     background-color: #E2E9ED;
     border-radius: 50%;
     height: 150px;
@@ -911,92 +1070,113 @@ background-image: url(../images/instagram.png);
     font-size: 25px;
     color: #000;
 }
-.WHO1Img{
+
+.WHO1Img {
     width: 80px;
     height: 80px;
     background-size: 100% 100%;
 }
-.WHO1Img.t1{
+
+.WHO1Img.t1 {
     background-image: url(../images/serviceimages/t1.png);
 }
-.WHO1Img.t2{
+
+.WHO1Img.t2 {
     background-image: url(../images/serviceimages/t2.png);
-    
+
     width: 74px;
 }
-.WHO1Img.t3{
+
+.WHO1Img.t3 {
     background-image: url(../images/serviceimages/t3.png);
     width: 68px;
 }
-.WHO1Img.t4{
+
+.WHO1Img.t4 {
     background-image: url(../images/serviceimages/t4.png);
     width: 68px;
 }
-.WHO1T1{
-text-align: center;
-font-weight: 600;
-font-size: 50px;
-margin: 15px 0px 10px 0px;
-color: #fff;
+
+.WHO1T1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    margin: 15px 0px 10px 0px;
+    color: #fff;
 }
-.WHO1T2{
-color: #fff;
-text-align: center;
-font-size: 20px;
+
+.WHO1T2 {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
 }
-.ContRow1{
+
+.ContRow1 {
     margin-top: 40px;
 }
-.ContactBoxR{
+
+.ContactBoxR {
     padding: 25px;
 }
-.ContactBoxRFlex{
+
+.ContactBoxRFlex {
     display: flex;
 }
-.ContactBoxRFlexLeft{
-flex: 0 0 50px;
-max-width: 50px;
+
+.ContactBoxRFlexLeft {
+    flex: 0 0 50px;
+    max-width: 50px;
 }
-.ContactBoxRFlexRight{
-flex: auto;
-max-width: auto;
+
+.ContactBoxRFlexRight {
+    flex: auto;
+    max-width: auto;
 }
-.ContactBoxRT1{
+
+.ContactBoxRT1 {
     font-weight: 600;
     color: #000;
     font-size: 20px;
     margin-bottom: 10px;
 }
-.ContactBoxRT2{
-   line-height: 1.5;
+
+.ContactBoxRT2 {
+    line-height: 1.5;
 }
-.ContactBoxRImg{
+
+.ContactBoxRImg {
     width: 30px;
     height: 30px;
     background-size: 100% 100%;
 }
-.ContactBoxRItem{
+
+.ContactBoxRItem {
     margin-bottom: 20px;
 }
-.ContactBoxRImg.c1{
+
+.ContactBoxRImg.c1 {
     background-image: url(../images/contactus/c1.png);
     width: 25px;
     height: 27px;
 }
-.ContactBoxRImg.c2{
+
+.ContactBoxRImg.c2 {
     background-image: url(../images/contactus/c2.png);
 }
-.ContactBoxRImg.c3{
+
+.ContactBoxRImg.c3 {
     background-image: url(../images/contactus/c3.png);
     height: 25px;
 
 }
-.ContactBoxRImg.c4{
+
+.ContactBoxRImg.c4 {
     background-image: url(../images/contactus/c4.png);
     height: 24px;
 }
-.MainForm1 input, 
-.MainForm1 textarea{
+
+.MainForm1 input,
+.MainForm1 textarea {
     -webkit-appearance: none;
     outline: none !important;
     box-shadow: none !important;
@@ -1006,11 +1186,13 @@ max-width: auto;
     background: #f7f5f5;
     color: #656565;
 }
+
 .MainForm1 .intl-tel-input {
     position: relative;
     display: block;
 }
-.MainForm1 input.wpcf7-submit{
+
+.MainForm1 input.wpcf7-submit {
     background-color: #3f8bbc !important;
     color: #fff;
     border-radius: 0px !important;
@@ -1020,25 +1202,30 @@ max-width: auto;
     width: auto;
     min-width: 220px;
 }
-.MainForm1  ::placeholder {
-    color: #656565;
-    opacity: 1; /* Firefox */
-  }
-  
-  .MainForm1   :-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color: #656565;
-  }
-  
-  .MainForm1  ::-ms-input-placeholder { /* Microsoft Edge */
-   color: #656565;
-  }
 
-  .MenuClick {
+.MainForm1 ::placeholder {
+    color: #656565;
+    opacity: 1;
+    /* Firefox */
+}
+
+.MainForm1 :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #656565;
+}
+
+.MainForm1 ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #656565;
+}
+
+.MenuClick {
     padding: 10px;
     transition: 0.4s;
     margin-left: 30px;
     cursor: pointer;
 }
+
 .MenuBtn1 {
     background-image: url(../images/menu.png);
     width: 35px;
@@ -1046,10 +1233,12 @@ max-width: auto;
     background-size: 100% 100%;
     display: inline-block;
 }
-.HeadeNavItems{
+
+.HeadeNavItems {
     display: flex;
     align-items: center;
 }
+
 .menudrop {
     position: fixed;
     left: 0;
@@ -1061,9 +1250,11 @@ max-width: auto;
     display: none;
     cursor: pointer;
 }
+
 .ActivePanel .menudrop {
     display: block;
 }
+
 .SideNav {
     position: fixed;
     right: -200%;
@@ -1080,9 +1271,11 @@ max-width: auto;
     height: 100%;
     transition: 0.4s;
 }
+
 .ActivePanel .SideNav {
     right: 0;
 }
+
 .CloseClick {
     width: 30px;
     position: absolute;
@@ -1092,15 +1285,18 @@ max-width: auto;
     display: inline-block;
     cursor: pointer;
 }
+
 .SideNavContent {
     display: flex;
     height: 100%;
     flex-direction: column;
     width: 100%;
 }
+
 .SideNavContent {
     position: relative;
 }
+
 .CloseBtn1 {
     background-image: url(../images/close.png);
     width: 25px;
@@ -1108,12 +1304,14 @@ max-width: auto;
     background-size: 100% 100%;
     display: inline-block;
 }
+
 .NavBox {
     padding-bottom: 20px;
     border-bottom: 1px solid #fff;
     margin-bottom: 20px;
-    
+
 }
+
 .NavBox a {
     color: #fff;
     font-weight: 600;
@@ -1121,16 +1319,19 @@ max-width: auto;
     display: block;
     padding: 7px 0px;
 }
+
 .SocialMedia {
     display: flex;
     justify-content: start;
 }
+
 .SocialMedia a {
     padding: 10px;
     display: inline-block;
     margin-right: 15px;
 }
-.SideMenuDescription{
+
+.SideMenuDescription {
     color: #fff;
     line-height: 1.5;
     padding-bottom: 20px;
@@ -1138,11 +1339,13 @@ max-width: auto;
     margin-bottom: 20px;
     margin-top: 20px;
 }
-.serviceSec1 .ServiceBox{
+
+.serviceSec1 .ServiceBox {
     display: block;
     color: #fff !important;
 }
-.ServiceBoxFooter{
+
+.ServiceBoxFooter {
     position: relative;
     background-color: #3F8BBC;
     color: #fff;
@@ -1151,7 +1354,8 @@ max-width: auto;
     text-transform: capitalize;
     text-align: center;
 }
-.ImageRound{
+
+.ImageRound {
     background-color: #3F8BBC;
     border-radius: 50%;
     height: 50px;
@@ -1166,24 +1370,30 @@ max-width: auto;
     z-index: 3;
     margin-left: -25px;
 }
-.ServiceBoxFooterImg{
+
+.ServiceBoxFooterImg {
     width: 30px;
     height: 30px;
     background-size: 100% 100%;
 }
-.ServiceBoxFooterImg.s1{
+
+.ServiceBoxFooterImg.s1 {
     background-image: url(../images/service/s1.png);
 }
-.ServiceBoxFooterImg.s2{
+
+.ServiceBoxFooterImg.s2 {
     background-image: url(../images/service/s2.png);
 }
-.ServiceBoxFooterImg.s3{
+
+.ServiceBoxFooterImg.s3 {
     background-image: url(../images/service/s3.png);
 }
-.ServiceBoxMain{
+
+.ServiceBoxMain {
     position: relative;
 }
-.HoveContent{
+
+.HoveContent {
     position: absolute;
     top: 0;
     left: 0;
@@ -1192,36 +1402,43 @@ max-width: auto;
     z-index: 2;
     padding: 25px;
     text-align: center;
-    background-color: rgba(63, 139, 188,.5);
+    background-color: rgba(63, 139, 188, .5);
     line-height: 1.5;
     display: none;
 }
-.ServiceBox:hover .HoveContent{
+
+.ServiceBox:hover .HoveContent {
     display: block;
 }
-.serviceSec1 .ServiceBox{
+
+.serviceSec1 .ServiceBox {
     margin-top: 30px;
 }
-.SeSecr23{
+
+.SeSecr23 {
     width: 100%;
     height: 100%;
 }
-.SeSecr23Block{
+
+.SeSecr23Block {
     padding: 35px;
 }
-.BlockT1{
+
+.BlockT1 {
     font-weight: 600;
     color: #000;
     font-size: 30px;
     margin-bottom: 20px;
 }
-.BlockT2{
+
+.BlockT2 {
     font-weight: 600;
     color: #3F8BBC;
     font-size: 23px;
     margin-bottom: 20px;
 }
-.BlockT3{
+
+.BlockT3 {
     line-height: 1.8;
 }
 
@@ -1237,10 +1454,12 @@ max-width: auto;
     border: 1px solid #fff;
     overflow: hidden;
 }
+
 .bottom-bar {
     padding: 3px 15px;
     min-height: 60px;
 }
+
 .bottom-bar--list {
     list-style: none;
     padding: 0;
@@ -1249,6 +1468,7 @@ max-width: auto;
     margin: 0;
     align-items: center;
 }
+
 .bottom-bar--list li>a {
     padding: 7px 2px;
     display: block;
@@ -1256,35 +1476,71 @@ max-width: auto;
     text-align: center;
     color: #212121;
 }
+
 .bottom-bar--list .icon img {
     max-width: 25px;
 }
+
 .bottom-bar--list .icon+.text {
     margin-top: 6px;
     line-height: 1;
     font-size: 11px;
 }
+
 @media screen and (max-width: 992px) {
-    .HeadeNavItems ul{
+    .HeadeNavItems ul {
         display: none;
     }
-  .mobile-only{
-    display: block;
-  }
-  .SideNav{
-    width: 100%;
-    padding: 45px 40px;
-  }
-  .CloseClick {
-    top: -30px;
-    right: -25px;
-}
-.activeform .Popup1 {
-    bottom: 0;
-    width: 100%;
-    margin: 0;
-    left: 0;
-    min-height: 70vh;
-}
-  
+
+    .mobile-only {
+        display: block;
+    }
+
+    .SideNav {
+        width: 100%;
+        padding: 45px 40px;
+    }
+
+    .CloseClick {
+        top: -30px;
+        right: -25px;
+    }
+
+    .activeform .Popup1 {
+        bottom: 0;
+        width: 100%;
+        margin: 0;
+        left: 0;
+        min-height: 70vh;
+    }
+
+    .HeroContent1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .HeroContent2 {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .HeroContent3 {
+        padding: 10px 20px;
+    }
+
+    .HeroContent {
+        padding: 150px 0px;
+    }
+
+    .pd-common {
+        padding: 20px 0px;
+    }
+    .Arrow2{
+        width: 55px;
+        height: 55px;
+    }
+    .VideoContent {
+        padding-left: 0;
+        text-align: center;
+    }
 }
