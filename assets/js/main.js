@@ -36,10 +36,8 @@ jQuery(document).ready(function ($) {
     jQuery(".AccordionQstion").click(function () {
       jQuery(this).parent().toggleClass("active")
     });
-    // jQuery('.multiple-items').slick({
-    //   infinite: true,
-    //   slidesToShow: 2,
-    //   slidesToScroll: 2,
-    //   dots: true
-    // });
+    jQuery(".CloseClick, .MenuClick , .menudrop ,.MenuActive1").click(function () {
+      jQuery("body").toggleClass("ActivePanel");
+    });
+    
 });
