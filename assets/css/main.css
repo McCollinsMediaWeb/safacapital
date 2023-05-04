@@ -1515,12 +1515,12 @@ footer {
     }
 
     .HeroContent1 {
-        font-size: 28px;
+        font-size: 23px;
         margin-bottom: 15px;
     }
 
     .HeroContent2 {
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: 30px;
     }
 
@@ -1542,5 +1542,25 @@ footer {
     .VideoContent {
         padding-left: 0;
         text-align: center;
+    }
+    .siteHeader {
+        padding: 5px 0px;
+    }
+    .LogoBox img {
+        max-width: 135px;
+    }
+    .MenuBtn1 {
+        width: 30px;
+        height: 23px;
+    }
+    .HeroBanner:after {
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .HeroContent3 {
+        color: #fff;
+        background-color: #3F8BBC;
+    }
+    .HeroContent3 .Arrow1 {
+        display: none;
     }
 }
