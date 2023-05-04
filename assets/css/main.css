@@ -994,3 +994,13 @@ max-width: auto;
     position: relative;
     display: block;
 }
+.MainForm1 input.wpcf7-submit{
+    background-color: #3f8bbc !important;
+    color: #fff;
+    border-radius: 0px !important;
+    padding: 15px 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+    width: auto;
+    min-width: 220px;
+}
