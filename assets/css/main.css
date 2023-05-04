@@ -1488,6 +1488,9 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
+    body{
+        font-size: 16px;
+    }
     .HeadeNavItems ul {
         display: none;
     }
@@ -1563,5 +1566,10 @@ footer {
     }
     .HeroContent3 .Arrow1 {
         display: none;
+    }
+    .VidTxt1 {
+        font-size: 23px;
+        margin-bottom: 15px;
+        margin-top: 15px;
     }
 }
