@@ -738,3 +738,73 @@ background-image: url(../images/instagram.png);
     font-size: 20px;
     margin: 15px 0px;
 }
+.HeroSubContent{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 40px 0px;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 2;
+}
+.OurValueItem{
+    position: relative;
+    padding: 10px 0px 10px 30px;
+    text-transform: capitalize;
+    line-height: 1.5;
+}
+.OurValueItem::before{
+    content: "";
+    background-color: #3F8BBC;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 15px;
+}
+.AbtK1{
+    padding: 30px;
+    background-color: #F7F5F5;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.AbtK1T2{
+    font-weight: 600;
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.4;
+}
+.AbtK1T1{
+    background-color: #3F8BBC;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.AbtK1T1Imge{
+    width: 35px;
+    height: 35px;
+    background-size: 100% 100%;
+}
+.AbtK1T1Imge.one{
+    background-image: url(../images/aboutus/1.png);
+}
+.AbtK1T1Imge.two{
+    background-image: url(../images/aboutus/2.png);
+}
+.AbtK1T1Imge.three{
+    background-image: url(../images/aboutus/3.png);
+}
+.AbtK1T1Imge.four{
+    background-image: url(../images/aboutus/4.png);
+}
