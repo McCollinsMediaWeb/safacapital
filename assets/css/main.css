@@ -1135,7 +1135,7 @@ max-width: auto;
     margin-bottom: 20px;
     margin-top: 20px;
 }
-.ServiceBox{
+.serviceSec1 .ServiceBox{
     display: block;
     color: #fff !important;
 }
