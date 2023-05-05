@@ -27,7 +27,7 @@ button {
 }
 
 .mobile-only {
-    display: none !important;
+    display: none;
 }
 
 @-webkit-keyframes fadeInUp {
