@@ -27,7 +27,7 @@ button {
 }
 
 .mobile-only {
-    display: none;
+    display: none !important;
 }
 
 @-webkit-keyframes fadeInUp {
@@ -1764,5 +1764,54 @@ footer {
     }
     .WpBLine{
         height: 100px;
+    }
+    .WorkProcessBoxItem  .WpBImageBox , 
+    .WorkProcessBoxItem .WpBLine,
+    .WorkProcessBoxItem .WpBcount 
+    {
+        display: none;
+    }
+    .mrgb-10 {
+        margin-bottom: 0;
+    }
+    .WpBT1 {
+        margin-bottom: 7px !important;
+    }
+    .WpBT2 {
+        line-height: 1.5;
+        text-align: center;
+        margin-bottom: 25px !important;
+    }
+    .OurValueItem {
+        padding: 7px 0px 7px 30px;
+        line-height: 1.5;
+    }
+    .sec3 .col-md-3{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .WHO1Box{
+        height: 80px;
+        width: 80px;
+    }
+    .WHO1Img {
+        width: 40px;
+        height: 40px;
+    }
+    .WHO1Img.t2 {
+        width: 40px;
+    }
+    .WHO1Img.t3 {
+        width: 42px;
+    }
+    .WHO1Img.t4 {
+        width: 40px;
+    }
+    .WHO1T1{
+        font-size: 30px;
+    }
+    .WHO1T2 {
+        font-size: 18px;
+        margin-bottom: 25px;
     }
 }
