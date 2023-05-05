@@ -1837,4 +1837,27 @@ footer {
     .BlockT3 {
         line-height: 1.5;
     }
+    .MainForm1 input, .MainForm1 textarea{
+        padding: 12px;
+    }
+    .MainForm1 textarea{
+        height: 100px;
+    }
+    .MapBox img{
+        display: inline;
+        height: 260px;
+        object-fit: cover;
+    }
+    .ContRow1 p{
+        margin-bottom: 5px;
+    }
+    .ContRow1 .col-md-6.bg-light{
+        margin-top: 20px;
+    }
+    .ContactBoxRT1{
+        margin-bottom: 10px;
+    }
+    .ContactBoxRItem {
+        margin-bottom: 15px;
+    }
 }
