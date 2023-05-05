@@ -1716,4 +1716,11 @@ footer {
         right: 7px;
         transform: rotate(180deg);
     }
+    .ContactFrm1T1 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .ContactFrm1 textarea{
+        height: 100px;
+    }
 }
