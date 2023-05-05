@@ -1592,4 +1592,97 @@ footer {
         font-size: 23px;
         margin-bottom: 15px;
     }
+    .VideoLink1 .Arrow3{
+        display: none;
+    }
+    .CommonHdr1T2 {
+        width: 170px;
+        height: 2px;
+        margin-bottom: 3px;
+    }
+    .CommonHdr1T3 {
+        width: 150px;
+        height: 2px;
+        margin-bottom: 20px;
+    }
+    .CommonHdr1T4{
+        line-height: 1.5;
+    }
+    .ServiceBox {
+        margin-top: 30px;
+    }
+    .RoundBox1{
+        height: 50px;
+        width: 50px;
+    }
+    .SBox1L {
+        flex: 0 0 60px;
+        max-width: 60px;
+    }
+    .SBox1Rt1 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .SBox1Rt2 {
+        margin-bottom: 15px;
+        line-height: 1.5;
+    }
+    .multiple-items-item > div{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .EmployeeBox {
+        margin-top: 20px;
+    }
+    .EmpName {
+        padding: 10px;
+    }
+    .SpEmpoxCntT2 {
+        margin-bottom: 5px;
+    }
+    .FotterT1 {
+        font-size: 18px;
+        text-transform: uppercase;
+        border-left: 3px solid #3F8BBC;
+        padding: 7px;
+        font-weight: 600;
+        padding-left: 15px;
+        margin-bottom: 20px;
+    }
+    .FotterT2 {
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+    .Newsletter form input{
+        padding: 10px;
+    }
+    .Newsletter form button{
+        width: 60px;
+        height: 39px;
+    }
+    footer .row .col-md-4{
+        margin-bottom: 30px;
+    }
+    footer .GalleyBox  .row .col-md-4{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+    .FooterMainLinks a {
+        padding: 10px 10px 10px 30px;
+        font-size: 16px;
+    }
+    .SocialBoxFlex {
+        justify-content: center;
+    }
+    .FotterT4 {
+        font-size: 20px;
+        margin: 20px 0px;
+        text-align: center;
+    }
+    .CopyRightBox {
+        margin-bottom: 70px;
+        padding: 20px 0px;
+        text-align: center;
+        line-height: 1.5;
+    }
 }
